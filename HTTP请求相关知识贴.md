@@ -1,5 +1,5 @@
 
-
+#[一次完整的HTTP请求过程](https://blog.csdn.net/yezitoo/article/details/78193794)
 #[HTTP请求行、请求头、请求体详解](https://blog.csdn.net/u010256388/article/details/68491509)
 ###常见请求报文头属性
 1.Accept :请求报文可通过一个“Accept”报文头属性告诉服务端 客户端接受什么类型的响应。
@@ -70,6 +70,7 @@ TAR文件 .tar application/x-tar
 >```
 
 
+#[HTTP请求头各字段解释](https://blog.csdn.net/chenyuanyong110/article/details/52781462)
 
 
 
