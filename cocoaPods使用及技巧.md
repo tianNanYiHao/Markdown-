@@ -8,3 +8,5 @@
 #[关于使用CocoaPods的package打包Framework以及使用注意](https://www.jianshu.com/p/611049483be4)
 
 #[CocoaPodsFramework静态库制作](https://blog.csdn.net/bsn1928/article/details/51362802)
+
+#[3分钟让你的框架支持cocoapods,podspec文件讲解](https://www.jianshu.com/p/8a7b9232cbab)
