@@ -1,0 +1,1 @@
+[Shell 编程之语法基础](https://linuxtoy.org/archives/shell-programming-basic.html)
