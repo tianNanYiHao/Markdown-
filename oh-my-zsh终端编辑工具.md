@@ -1,0 +1,1 @@
+#[oh-my-zsh编辑工具](http://www.kafeitu.me/shell/2012/03/25/oh-my-zsh.html?spm=a2c4e.11153940.blogcont26997.3.20ae1187DUcYLH)
