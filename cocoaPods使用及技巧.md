@@ -1,6 +1,10 @@
 #[Wolfgang89/SpecFile](https://github.com/Wolfgang89/SpecFile)
 
 #[使用CocoaPods开发并打包静态库](http://www.cnblogs.com/brycezhang/p/4117180.html)
+
+#[CocoaPods开发静态库并建立Podspec - 看完其他贴,最后看我](https://www.jianshu.com/p/9cfd5425ad90)
+>!!!!!!!!!!!!!!!!!!!!然后执行pod package SDKLib.podspec --force --verbose.通过这个命令打包时候会自动将podspec中dependency的第三方库进行重命名.这样打出来的是SDKLib.framework.!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 ```
 需要特别强调的是，该插件通过对引用的三方库进行重命名很好的解决了类库命名冲突的问题。
 ```
@@ -93,3 +97,25 @@ end
 #[CocoaPodsFramework静态库制作](https://blog.csdn.net/bsn1928/article/details/51362802)
 
 #[3分钟让你的框架支持cocoapods,podspec文件讲解](https://www.jianshu.com/p/8a7b9232cbab)
+
+
+
+
+#一些遇到的坑及解决办法
+###[[Cocoapods]项目添加Cocoapods支持遇到的坑](https://www.jianshu.com/p/283584683b0b)
+
+###[如何解决上传依赖Masonry的开源项目到Cocoapods时报错的问题](https://www.jianshu.com/p/282e5c7fe00e)
+
+>file not found with <angled> include; use "quotes" instead 
+>
+>这个错误提示不能使用<>大括号来引用静态库而要使用“”来引用静态库
+>
+>import <Masonry> 会导致以上执行 pod lib lint SOCR.podspec 检查文件时,报错
+
+###[通过CocoaPods打包framework](https://www.jianshu.com/p/e744b56d57ea)
+
+###[[iOS dev] 使用cocoapods打包静态库(依赖私有库，开源库，私有库又包含静态库)](https://www.aliyun.com/jiaocheng/352443.html)
+
+
+
+
