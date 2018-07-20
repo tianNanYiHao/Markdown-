@@ -119,3 +119,11 @@ end
 
 
 
+
+###[CocoaPods 动/静态库混用封装组件化](https://www.jianshu.com/p/544df88b6a1e)
+
+###[Cocoapods生成静态库（完整）](https://www.jianshu.com/p/e572d3764e14)
+
+###[Cocoapods打包framework/静态库的注意点](https://www.jianshu.com/p/605350a7b1dd)
+
+###[关于xcode8的建立依赖其他第三方库（cocoapods管理）的静态库framework](https://blog.csdn.net/BUG_delete/article/details/72901462)
