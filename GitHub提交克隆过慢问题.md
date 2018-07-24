@@ -9,7 +9,7 @@
 >```
 >终端 输入
 >```
->vi /etc/hosts
+>sudo /etc/hosts
 >```
 >进入 hosts 文件, 在最末尾 添加上面两个地址 然后Esc  ＋ :wq 保存退出
 >
