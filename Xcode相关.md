@@ -28,6 +28,22 @@
 
 #[Alcatraz的安装和使用](https://www.cnblogs.com/wendingding/p/4964661.html)
 
+#[Xcode 8+安装Alcatraz插件管理器](https://blog.csdn.net/zhongtiankai/article/details/72598467)
+#[解决Xcode 8以后的Alcatraz等插件不可用](https://blog.csdn.net/jingfa1993/article/details/65633047)
+```
+//要使用插件 - 使用 xcode_plgins 插件进行 xcod解签(解除Xcod8的封印 XD )
+//1.查看并更新所有已经安装的插件的签名 !
+update_xcode_plugins
+//2.解签! 对Xcode执行去除签名验证的操作，对于后期打包上传AppStore可能有影响
+ update_xcode_plugins --unsign
+ 
+//3.需要打包上传AppStore时, 需重新对Xcode进行恢复(封印!)
+update_xcode_plugins --restore
+
+
+//插件的文件目录地址
+~/Library/Application Support/Developer/Shared/Xcode/Plug-ins
+```
 
 
 
