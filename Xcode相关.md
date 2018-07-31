@@ -28,6 +28,11 @@
 
 #[Alcatraz的安装和使用](https://www.cnblogs.com/wendingding/p/4964661.html)
 
+[Xcode方便开发的插件推荐](https://www.jianshu.com/p/51635869b027)
+
+
+[超详细的Xcode代码格式化教程，可自定义样式](https://www.jianshu.com/p/a725e24d7835)
+
 #[Xcode 8+安装Alcatraz插件管理器](https://blog.csdn.net/zhongtiankai/article/details/72598467)
 #[解决Xcode 8以后的Alcatraz等插件不可用](https://blog.csdn.net/jingfa1993/article/details/65633047)
 ```
