@@ -33,6 +33,48 @@
 
 [超详细的Xcode代码格式化教程，可自定义样式](https://www.jianshu.com/p/a725e24d7835)
 
+
+```
+# 基于LLVM样式
+# 基于LLVM样式
+IndentWidth: 4
+IndentWidth: 4
+# switch的case缩进宽度
+
+IndentWidth: 4
+# 基于LLVM样式
+BasedOnStyle: LLVM
+
+# 连续的赋值操作按=对齐，看自己喜好打开。
+AlignConsecutiveAssignments: true
+
+# 把连续行的变量名对齐，看自己喜好打开。
+#AlignConsecutiveDeclarations: true
+
+# 对齐尾部注释
+AlignTrailingComments: true
+
+# 大括号前面是否换行
+BreakBeforeBraces: Allman
+
+# 每行字符的宽度不限制
+ColumnLimit: 0
+
+# 缩进宽度设置为4
+IndentWidth: 4
+
+# switch的case缩进宽度
+IndentCaseLabels: true
+
+# 不保留block里面开始的空行们
+KeepEmptyLinesAtTheStartOfBlocks: false
+
+# 最多只能有连续1行空行
+MaxEmptyLinesToKeep: 1
+".clang-format" 48L, 1038C
+
+```
+
 #[Xcode 8+安装Alcatraz插件管理器](https://blog.csdn.net/zhongtiankai/article/details/72598467)
 #[解决Xcode 8以后的Alcatraz等插件不可用](https://blog.csdn.net/jingfa1993/article/details/65633047)
 ```
